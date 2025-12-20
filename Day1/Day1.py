@@ -33,3 +33,11 @@ print(type(age))
 print(type(location))
 print(type(grade))
 print(type(is_working))
+
+#Multi-line strings
+paragraph = """
+This is a multi-line strings.
+For readability and easy to maintain your code.
+You can print the variable to see the output.
+"""
+print(paragraph)

@@ -28,3 +28,10 @@ To know how to check the data type of the variable name, you may use the print f
 Example: name = "Chan"
 print(type(name))
 output: <class 'str'>
+
+Topic: Working with strings/Multi-line strings
+Summary: To store a multi-line string into a single variable, you may use """ """ and print function to display the stored values of the variable.
+Example:
+paragraph = """This is a multi-line strings.
+For readability and easy to maintain your code.
+You can print the variable to see the output."""
