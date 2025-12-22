@@ -40,3 +40,21 @@ for each value in sequence, perform this action
 #sequence = iterable e.g. list, dictionary, etc.
 #value = iterator i.e. the index
 #placeholder(can give it any name), i is common
+
+Topic: While loops
+While loop can execute a set of statements as long as a condition is true. It is used when the number of iterations needed is unknown in advance.
+Basic Syntax:
+while condition:
+<indent>Code block to execute repeatedly
+<indent>Update variable related to the condition to avoid infinite loop
+
+Topic: Complex workflows
+-When building software, you may need to implement custom logics like:
+-loops through data structures (for, while)
+-evaluate multiple conditions (if, elif, else, >, >=, <= ,<, ==, !=)
+-update variables (+=)
+-return ooutputs (print())
+-the "in" keyword is use to check if a value is in a variable/data structure
+-the "not" keyword is use to check if a condition is not met
+-the "and" keyword is use to check if multiple conditions are met
+-the "or" keyword is use to check if one(or more) condition is met
