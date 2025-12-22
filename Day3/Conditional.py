@@ -17,3 +17,8 @@ elif x == y:
     print("x and y are equal")
 else:
     print("x is less than y")
+
+#Using boolean variable
+is_human = True
+if is_human:
+    print("Hi, human!")

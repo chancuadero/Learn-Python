@@ -29,3 +29,14 @@ Example:
 age = 32
 if age > 18:
 <indent>print("You are an adult")
+else:
+<indent>print("You are a minor)
+
+Topic: For loops
+for value in sequence:
+<indent>action
+for each value in sequence, perform this action
+#action is indented because of the colon in the previous line
+#sequence = iterable e.g. list, dictionary, etc.
+#value = iterator i.e. the index
+#placeholder(can give it any name), i is common
