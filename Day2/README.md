@@ -9,6 +9,7 @@ print(word)
 
 Addition: There are other ways to modify string values using built-in methods. Examples are .upper(), .lower(), .strip(), .split()
 For reference: https://www.w3schools.com/python/python_strings_modify.asp
+To know more about strings: https://www.w3schools.com/python/python_strings.asp
 
 Topic: List
 Summary: List is a built-in data structure that can hold a collection of items or mixed data types. It can contain duplicate items, mutable, ordered, and index-based. Different ways in creating a list include using square bracket [] or list constructor- list().
