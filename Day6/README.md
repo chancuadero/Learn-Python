@@ -10,3 +10,18 @@ Example:
 def average(*args):
 
 Additional info: Args (\*) create a single iterable (tuple) while Kwargs(\*\*kwargs) is used to accept a variable number of keyword arguments and collected into a dictionary.
+
+For reference: https://www.w3schools.com/python/python_args_kwargs.asp
+
+Topic: Lambda Function
+Summary: Lambda function represents an anonymous function. It uses a lambda keyword which doesn't require a name or the need to save to a variable. Syntax: lambda arguments: expression.
+Additional Info: Lambda function can be used with iterables. map() applies a function to all elements in an iterable.
+
+Note: When to use custom vs lambda functions
+Scenario and Function Type:
+Complex task -> Custom
+Same task several times -> Custom
+Performed once -> Lambda
+Simple task -> Lambda
+
+For reference: https://www.w3schools.com/python/python_functions.asp / https://www.w3schools.com/python/python_lambda.asp
