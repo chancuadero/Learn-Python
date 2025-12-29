@@ -8,3 +8,4 @@ This is to document my Python journey. A collection of personal projects, exerci
 [Day 4](Day4/): Built-in Functions, Modules, and Packages<br>
 [Day 5](Day5/): Custom Functions <br>
 [Day 6](Day6/): Docstring and Arbitrary Arguments<br>
+[Day 7](Day6/): Error Handling<br>
