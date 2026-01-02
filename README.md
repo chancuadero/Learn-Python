@@ -10,3 +10,4 @@ This is to document my Python journey. A collection of personal projects, exerci
 [Day 6](Day6/): Docstring and Arbitrary Arguments<br>
 [Day 7](Day7/): Error Handling<br>
 [Day 8](Day8/): List, Tuple, String, and Dictionary<br>
+[Day 9](Day9/): Updating Dictionary, Numeric Data Types, and Booleans<br>
