@@ -15,3 +15,15 @@ from collections import namedtuple
 student = namedtuple('Student',['name','age','DOB'])
 S = student('Nandini','19','2541997')
 print(S.name)
+
+Topic: Dataclasses
+Summary: Dataclasses are useful as it support for default values, provides custom representations of the objects, and easy tuple or a dictionary conversion.
+Example:
+from dataclasses import dataclass
+@dataclass
+class Cookie:
+name: str
+quantity: int = 0
+chocolate_chip = Cookie('chocolate chip', 13)
+print(chocolate_chip.name)
+print(chocolate_chip.quantity)

@@ -33,3 +33,17 @@ my_apps = [Job("Google","Remote","Sent",150000),Job("Canva","Australia","Intervi
 
 for app in my_apps:
     print(f"{app.company} - {app.location} | Status: {app.status}")
+
+
+#dataclasses
+from dataclasses import dataclass
+
+@dataclass
+class Article:
+    title: str
+    author: str
+    language: str
+    
+article = Article("DataClasses","defis","Python")
+print(article)
+
