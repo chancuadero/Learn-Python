@@ -27,3 +27,12 @@ quantity: int = 0
 chocolate_chip = Cookie('chocolate chip', 13)
 print(chocolate_chip.name)
 print(chocolate_chip.quantity)
+
+Topic: Dates in Python
+Summary: In Python, dates and times are handled using the built-in datetime module, which provides several classes for manipulation and formatting. The most important classes are date, time, datetime, and timedelta.
+Example:
+from datetime import date
+two_hurricanes_dates = [date(2016,10,7), date(2017,6,21)]
+print(two_hurricanes_dates[0].year)
+print(two_hurricanes_dates[0].month)
+print(two_hurricanes_dates[0].days)
