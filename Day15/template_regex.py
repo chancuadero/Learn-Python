@@ -29,3 +29,22 @@ try:
     print(my_string.safe_substitute(favorite))
 except KeyError:
     print('Missing Information')
+
+
+#REGULAR EXPRESSIONS
+
+#findall
+import re
+text = "Python is powerful and great!"
+result = re.findall(r"Python",text)
+print(*result)
+
+#split
+text = "I love coding! I'm learning a lot! Excellent!"
+result = re.split(r"!", text)
+print(", ".join(result))
+
+#sub - replace one or many matches with a string
+text = "What a great place! Its super relaxing and has great view!"
+result = re.sub(r"great","nice", text)
+print(result)
