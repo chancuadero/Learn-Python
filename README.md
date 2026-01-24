@@ -17,3 +17,4 @@ This is to document my Python journey. A collection of personal projects, exerci
 [Day 13](Day13/): Continuation of Learning Dates<br>
 [Day 14](Day14/): Context Managers and Decorators<br>
 [Day 15](Day15/): Template and Regular Expressions<br>
+[Day 16](Day16/): Quantifier<br>
