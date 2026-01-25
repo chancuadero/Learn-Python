@@ -38,3 +38,11 @@ print(re.findall(r"Elephant|elephant", my_string))
 #Set of characyers: []
 my_string = "Yesterday I spent my afternoon with my friends: MaryJohn2 Clary3"
 print(re.findall(r"[a-zA-Z]+\d",my_string))
+
+#Flying home using group characters
+flight = "You are now ready to fly. Here you have your boarding pass IB3723 AMS-MAD 06OCT"
+regex = r"([A-Z]{2})(\d{4})\s([A-Z]{3})-([A-Z]{3})\s(\d{2}[A-Z]{3})"
+flight_matches = re.findall(regex, flight)
+print("Airline: {} Flight number: {}".format(flight_matches[0][0],flight_matches[0][1]))
+print("Departure: {} Destination: {}".format(flight_matches[0][2],flight_matches[0][3]))
+print("Date: {}".format(flight_matches[0][4]))
