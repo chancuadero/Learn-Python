@@ -19,3 +19,4 @@ This is to document my Python journey. A collection of personal projects, exerci
 [Day 15](Day15/): Template and Regular Expressions<br>
 [Day 16](Day16/): Quantifier<br>
 [Day 17](Day17/): Metacharacters<br>
+[Day 18](Day18/): Alternation and Non-Capturing Group<br>
