@@ -22,3 +22,4 @@ This is to document my Python journey. A collection of personal projects, exerci
 [Day 18](Day18/): Alternation and Non-Capturing Group<br>
 [Day 19](Day19/): Introduction to Object-oriented programming <br>
 [Day 20](Day20/): Core principles of Object-oriented programming<br>
+[Day 21](Day21/): Introduction to Shell <br>
