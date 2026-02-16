@@ -25,3 +25,4 @@ This is to document my Python journey. A collection of personal projects, exerci
 [Day 21](Day21/): Introduction to Shell <br>
 [Day 22](Day22/): Python Standard Library and Runtime<br>
 [Day 23](Day23/): Built-in Functions, Set theory, and DataFrame Iteration
+[Day 24](Day24/): Introduction to Git
