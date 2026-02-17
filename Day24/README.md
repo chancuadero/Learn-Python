@@ -9,4 +9,29 @@ Summary: Version control is a group of processes and systeams to manage changes 
    Different git commands: https://education.github.com/git-cheat-sheet-education.pdf
    FOR REFERENCE: https://www.w3schools.com/git/
 
-
+2. Git commits have three parts:
+   a. Commit
+   -contains the metadata - author,log,message,commit time
+   b. Tree
+   -tracks the names and locations of files and directories in the repo
+   -like a dictionary - mapping keys to files/directories
+   c. Blob
+   -Binary Large Object
+   -may contain data of any kind
+   -a compressed snapshot of a file's contents
+3. Git hash
+   Hash is a 40 character string of numbers and letters. Git produces Pseudo-random number generator (hash function). It allows data sharing between repos.
+4. Git diff
+   git diff = Show changes between all unstaged files and the latest commit
+   git diff report.md = Show changes between an unstaged file and the latest commit
+   git diff --staged = Show changes between all staged files and the latest commit
+   git diff --staged report.md = Show changes between a stayed file and the latest commit
+   git diff 35f4bfd 186398f = Show changes between two commits using hashes
+   git diff HEAD~1 HEAD~2 = Show changes between two commits using HEAD instead of commit hashes
+5. Git revert
+   git revert HEAD = Revert all files from a given commit
+   git revert HEAD --no-edit = Revert without opening a text editor
+   git revert HEAD -n = Revert without making a new commit
+   git checkout HEAD~1 -- report.md = Revert a single file from the previous commit
+   git restore --staged report.md = Remove a single file from the staging area
+   git restore --staged = Remove all files from the staging area
