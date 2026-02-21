@@ -65,3 +65,22 @@ rookies = Team(["Casey", "Emmitt"])
 veterans = Team(["Mike", "Chuck"])
 dream_team = rookies + veterans
 print(dream_team.team_members)
+
+#Creating a Network of Computers
+class Network:
+    def __init__(self, ip_address):
+        self.ip_address = ip_address
+
+class Computer:
+    def __init__(self, operating_system, ip_address):
+        self.operating_system = operating_system
+        self.ip_address = ip_address
+    
+    def __add__(self, other):
+        if self.operating_system == other.operating_system:
+            return Network([self.ip_address, other.ip_address])
+
+jerry_comp = Computer("Windows", '1234.5')
+john_comp = Computer("Windows", '1435.2')
+network = jerry_comp + john_comp
+print(network)
