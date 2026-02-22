@@ -24,6 +24,8 @@ This is to document my Python journey. A collection of personal projects, exerci
 [Day 20](Day20/): Core principles of Object-oriented programming<br>
 [Day 21](Day21/): Introduction to Shell <br>
 [Day 22](Day22/): Python Standard Library and Runtime<br>
-[Day 23](Day23/): Built-in Functions, Set theory, and DataFrame Iteration
-[Day 24](Day24/): Introduction to Git
-[Day 25](Day25/): Intermediate Git
+[Day 23](Day23/): Built-in Functions, Set theory, and DataFrame Iteration<br>
+[Day 24](Day24/): Introduction to Git<br>
+[Day 25](Day25/): Intermediate Git<br>
+[Day 26](Day26/): Intermediate Object-Oriented Programming<br>
+[Day 27](Day27/): Inheritance<br>
