@@ -29,3 +29,6 @@ This is to document my Python journey. A collection of personal projects, exerci
 [Day 25](Day25/): Intermediate Git<br>
 [Day 26](Day26/): Intermediate Object-Oriented Programming<br>
 [Day 27](Day27/): Inheritance<br>
+[Day 28](Day28/): Discriptors<br>
+[Day 29](Day29/): Customizing Attribute Access and Custom Iterators<br>
+[Day 30](Day30/): Abstract Base Classes, Interfaces, and Factory Methods <br>

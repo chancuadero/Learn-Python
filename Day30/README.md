@@ -7,4 +7,4 @@ Topic: Interfaces
 Summary: A special kind of class made up of only abstrace methods that create a contract with the classes that implement the interface. It must define abstract methods.
 
 Topic: Factory Methods
-Summary:
+Summary: Factory method is a design pattern used to create objects without specifying the exact class of object that will be created.
