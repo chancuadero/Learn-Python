@@ -32,3 +32,4 @@ This is to document my Python journey. A collection of personal projects, exerci
 [Day 28](Day28/): Discriptors<br>
 [Day 29](Day29/): Customizing Attribute Access and Custom Iterators<br>
 [Day 30](Day30/): Abstract Base Classes, Interfaces, and Factory Methods <br>
+[Day 31](Day31/): Python Packages<br>
