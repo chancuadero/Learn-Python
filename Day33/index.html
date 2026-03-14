@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xpath Practice</title>
+</head>
+<body>
+    <div id="data-container">
+        <h2 class="title">Daily Reports</h2>
+        
+        <table id="files-table">
+            <thead>
+                <tr>
+                    <th>Filename</th>
+                    <th>Status</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="row-item">
+                    <td>sales_data_2026.csv</td>
+                    <td class="status-complete">Processed</td>
+                    <td><button class="btn-download">Download</button></td>
+                </tr>
+                <tr class="row-item">
+                    <td>inventory_raw.txt</td>
+                    <td class="status-error">Error</td>
+                    <td><button class="btn-download" disabled>Download</button></td>
+                </tr>
+            </tbody>
+        </table>
+    
+        <div class="footer-ops">
+            <p>System User: <span>Christian_Admin</span></p>
+            <button class="btn-primary" id="btn_99x_sync">Sync to FTP</button>
+        </div>
+    </div>
+</body>
+</html>
