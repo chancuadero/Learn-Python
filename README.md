@@ -34,3 +34,6 @@ This is to document my Python journey. A collection of personal projects, exerci
 [Day 30](Day30/): Abstract Base Classes, Interfaces, and Factory Methods <br>
 [Day 31](Day31/): Python Packages<br>
 [Day 32](Day32/): Installing Packages, Dependencies, and Testing Packages
+[Day 33](Day33/): Webscrape
+[Day 34](Day34/): Linked List
+[Day 35](Day35/): Stacks
