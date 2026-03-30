@@ -36,4 +36,4 @@ This is to document my Python journey. A collection of personal projects, exerci
 [Day 32](Day32/): Installing Packages, Dependencies, and Testing Packages
 [Day 33](Day33/): Webscrape
 [Day 34](Day34/): Linked List
-[Day 35](Day35/): Stacks
+[Day 35](Day35/): Stacks and Queues
